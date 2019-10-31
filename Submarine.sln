@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29209.62
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Submarine.App", "Submarine.App\Submarine.App.csproj", "{125BC2EC-3315-4A5F-880F-8BBB327994D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Submarine.Tests", "Submarine.Tests\Submarine.Tests.csproj", "{74B9B5C4-EBFA-46EA-8058-C2B9E4A1CB4C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{125BC2EC-3315-4A5F-880F-8BBB327994D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{125BC2EC-3315-4A5F-880F-8BBB327994D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{125BC2EC-3315-4A5F-880F-8BBB327994D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{125BC2EC-3315-4A5F-880F-8BBB327994D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74B9B5C4-EBFA-46EA-8058-C2B9E4A1CB4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74B9B5C4-EBFA-46EA-8058-C2B9E4A1CB4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74B9B5C4-EBFA-46EA-8058-C2B9E4A1CB4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74B9B5C4-EBFA-46EA-8058-C2B9E4A1CB4C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {13F7E2DC-3419-486C-8BC2-B7950DF71A81}
+	EndGlobalSection
+EndGlobal
