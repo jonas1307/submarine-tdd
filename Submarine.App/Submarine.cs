@@ -11,14 +11,21 @@ namespace Submarine
         private int XAxis;
         private int YAxis;
         private int ZAxis;
+        private readonly int? MaxDepth;
         private CardinalDirection CurrentDirection;
 
-        public Submarine()
+        public Submarine(int? maxdepth = null)
         {
+            if (maxdepth != null && maxdepth > -1)
+            {
+                throw new ArgumentOutOfRangeException("maxdepth");
+            }
+
             XAxis = 0;
             YAxis = 0;
             ZAxis = 0;
             CurrentDirection = Directions.All().First(f => f.Id == Directions.MinId);
+            MaxDepth = maxdepth;
         }
 
         public string Operate(string commands)
@@ -55,6 +62,11 @@ namespace Submarine
 
         private void MoveDown()
         {
+            if (MaxDepth != null && MaxDepth >= ZAxis)
+            {
+                return;
+            }
+
             ZAxis--;
         }
 
